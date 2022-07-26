@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0.7rem;
+    color: azure;
+    padding: 0.5rem;
+    border-bottom: 3px solid crimson;
+}
+
+.container {
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 60vh;
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+
+button {
+    border: none;
+    position: absolute;
+    padding: 0.4rem;
+    background-color: crimson;
+    color: azure;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(197, 24, 59);
+    transition: all 0.3s ease-in-out;
+}
+
+.container .buttons>#btnno {
+    margin-left: 50px;
+}
