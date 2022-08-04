@@ -1,7 +1,7 @@
 let btnsi = document.getElementById('btnsi');
 let btnno = document.getElementById('btnno');
 
-btnno.addEventListener('click', () => {
+btnno.addEventListener('mouseover', () => {
     console.log("mouse entrando");
     var pos = coordenadas();
     console.log(pos)
