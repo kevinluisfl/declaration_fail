@@ -1,8 +1,13 @@
 let btnsi = document.getElementById('btnsi');
 let btnno = document.getElementById('btnno');
 
+// let coord;
+// window.addEventListener("load",()=>{
+//     coord = btnno.getBoundingClientRect();
+//     console.log(coord);
+// })
+
 btnno.addEventListener('mouseover', () => {
-    console.log("mouse entrando");
     var pos = coordenadas();
     console.log(pos)
     btnno.style.top = `${pos.posy}px`;
@@ -18,5 +23,8 @@ var coordenadas = () => {
 }
 
 btnsi.addEventListener('click', () => {
+    // btnno.style.top = `${coord.top}px`;
+    // btnno.style.left = `${coord.left}px`;
+    location.reload();
     alert('Ya sabia que querias ser mi novia');
 });
